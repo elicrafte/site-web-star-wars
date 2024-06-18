@@ -1,4 +1,4 @@
-head.entête{
+head.entete{
    margin-bottom: 50px;
 }
 
@@ -57,4 +57,11 @@ body {
   justify-content: space-between;
   align-content: space-between;
   text-align: right;
+  z-index: -2;
+}
+
+.contenue {
+color:black;
+background-color: beige;
+
 }
