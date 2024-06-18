@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'star-wars';
+  src: url('"C:\Users\ordi2121296\Documents\premierprojet\STARWARS\STARWARS.TTF"') format('truetype'),
+}
+
 head.entete{
    margin-bottom: 50px;
 }
@@ -28,10 +33,16 @@ body{
    background-size: cover;
    max-width: 100%;
    height: auto;
+   background-attachment: fixed;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
+}
+
+main{
+  background-color: rgba(184, 170, 152, 0.847);
+  margin: 200px;
 }
 
 .item {
@@ -49,6 +60,7 @@ body {
   justify-content: space-between;
   align-content: space-between;
   text-align: left;
+ object-position: top;
 }
 
 .containe2 {
@@ -60,8 +72,14 @@ body {
   z-index: -2;
 }
 
-.contenue {
+p {
 color:black;
-background-color: beige;
+text-align: center;
+font-family: 'star-wars';
+margin: 100px;
+}
+
+nav{ 
+  position: fixed;
 
 }
