@@ -1,27 +1,16 @@
 @font-face {
   font-family: 'star-wars';
-  src: url('"C:\Users\ordi2121296\Documents\premierprojet\STARWARS\STARWARS.TTF"') format('truetype'),
+  src: url(./police/star-wars/STARWARS2/STARWARS.woff2) format('woff2'),
+    url(./police/star-wars/STARWARS2/STARWARS.woff) format('woff'),
+    url(./police/star-wars/STARWARS/STARWARS.TTF) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 head.entete {
   margin-bottom: 50px;
 }
-
-h1 {
-  color: black;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  margin: 0px;
-  background-color: #9faeae;
-}
-
-h2 {
-  color: black;
-  margin-left: 5px;
-  text-align: center;
-  background-size: 50px, 20px;
-}
-
 
 div.img {
   display: flex;
@@ -49,22 +38,35 @@ main {
 p {
   color: black;
   text-align: center;
-  font-family: 'star-wars';
+  /*font-family: 'star-wars';*/
   margin: 100px;
 }
 
-.nav{
-  background:#f3f2f1;
-  height:40px;
-  margin-bottom:15px;
-  
+nav {
+  position: fixed;
+  top: 0;
+  z-index: -2;
 }
-.nav ul li{
-  float:left;
-  list-style:none
+
+.navi {
+  background: #f3f2f1;
+  height: 40px;
+  margin-bottom: 15px;
+  display: block;
 }
-.nav ul li a{
-  line-height:40px;
-  display:block;
-  padding:0 10px;
+
+.navi ul li {
+  float: left;
+  list-style: none;
+}
+
+.navi ul li a {
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+.s-w-1 {
+  font-family: 'star-wars';
+  text-align: center;
+  font-size: 30px;
 }
