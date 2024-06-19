@@ -67,10 +67,10 @@ nav {
   line-height: 40px;
   padding: 0 10px;
   color: black;
-  text-decoration-line: none;
+  /*text-decoration-line: none;*/
 }
 
-.poli-starwars-1{
+.poli-starwars-1 {
   font-family: 'star-wars';
   text-align: center;
   font-size: 30px;
