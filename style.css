@@ -33,13 +33,15 @@ body {
 main {
   background-color: rgba(184, 170, 152, 0.847);
   margin: 200px;
+  text-align: center;
+
 }
 
 p {
   color: black;
   text-align: center;
   /*font-family: 'star-wars';*/
-  margin: 100px;
+  margin: 200px;
 }
 
 nav {
@@ -49,10 +51,11 @@ nav {
 }
 
 .navi {
-  background: #f3f2f1;
+  background: #424b85;
   height: 40px;
   margin-bottom: 15px;
   display: block;
+  /*color: black;*/
 }
 
 .navi ul li {
@@ -63,9 +66,11 @@ nav {
 .navi ul li a {
   line-height: 40px;
   padding: 0 10px;
+  color: black;
+  text-decoration-line: none;
 }
 
-.s-w-1 {
+.poli-starwars-1{
   font-family: 'star-wars';
   text-align: center;
   font-size: 30px;
