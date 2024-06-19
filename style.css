@@ -12,7 +12,7 @@ head.entete {
   margin-bottom: 50px;
 }
 
-div.img {
+.img_aceuille {
   display: flex;
   justify-content: center;
 }
@@ -24,6 +24,8 @@ body {
   max-width: 100%;
   height: auto;
   background-attachment: fixed;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -34,7 +36,6 @@ main {
   background-color: rgba(184, 170, 152, 0.847);
   margin: 200px;
   text-align: center;
-
 }
 
 p {
@@ -45,27 +46,27 @@ p {
 }
 
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
-  z-index: -2;
+  left: 0;
+  width: 100%;
+  background-color: #97989d;
+  line-height: 5px;
+  border-color: black;
+  border: 4px solid;
 }
 
-.navi {
-  background: #424b85;
-  height: 40px;
-  margin-bottom: 15px;
-  display: block;
-  /*color: black;*/
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
 
-.navi ul li {
-  float: left;
+nav ul li {
   list-style: none;
 }
 
-.navi ul li a {
-  line-height: 40px;
-  padding: 0 10px;
+nav ul li a {
   color: black;
   /*text-decoration-line: none;*/
 }
@@ -74,4 +75,8 @@ nav {
   font-family: 'star-wars';
   text-align: center;
   font-size: 30px;
+}
+
+#logo {
+  height: 1em;
 }
