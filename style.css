@@ -8,11 +8,7 @@
   font-display: swap;
 }
 
-head.entete {
-  margin-bottom: 50px;
-}
-
-.img_aceuille {
+.img-aceu {
   display: flex;
   justify-content: center;
 }
@@ -38,10 +34,9 @@ main {
   text-align: center;
 }
 
-p {
+.tx-fn-aceu {
   color: black;
   text-align: center;
-  /*font-family: 'star-wars';*/
   margin: 200px;
 }
 
@@ -49,7 +44,6 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  width: 100%;
   background-color: #97989d;
   line-height: 5px;
   border-color: black;
@@ -68,13 +62,13 @@ nav ul li {
 
 nav ul li a {
   color: black;
-  /*text-decoration-line: none;*/
+  text-decoration-line: none;
 }
 
 .poli-starwars-1 {
   font-family: 'star-wars';
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 #logo {
