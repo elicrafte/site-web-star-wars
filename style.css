@@ -31,7 +31,7 @@ body {
 main {
   background-color: rgba(184, 170, 152, 0.847);
   margin: 200px;
-  padding: 10% 1% 5%;
+  padding: 20% 1% 5%;
   text-align: center;
 }
 
@@ -49,21 +49,20 @@ nav {
   line-height: 5px;
   border-color: black;
   border: 4px solid;
+  padding-bottom: 1em;
+  font-size: 25px;
 }
 
 nav ul {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 0.8em;
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 nav ul li {
   list-style: none;
-}
-
-nav ul li a {
-  color: black;
-  text-decoration-line: none;
 }
 
 .police_index_starwars {
@@ -74,9 +73,51 @@ nav ul li a {
 
 #logo {
   height: 1em;
+  margin-right: 1em;
 }
 
 .texte_de_font_evenements {
   text-align: center;
   margin: 200px;
+  color: black;
+}
+
+
+/* tout ce qui a apres la note et lanimation boutont de navigation*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.animated-link {
+  display: inline-block;
+  background: black;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.animated-link span {
+  display: inline-block;
+  background: #97989d;
+  color: #333;
+  border: 1px solid #000000;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease-out,
+    color 0.15s ease-out,
+    background-color 0.15s ease-out;
+}
+
+.animated-link:hover span {
+  transition-delay: 0.15s;
+  transform: translate(3px, -3px);
+  color: black;
+  background: #62aeb3;
 }
