@@ -8,7 +8,7 @@
   font-display: swap;
 }
 
-.img-aceu {
+.img-index {
   display: flex;
   justify-content: center;
 }
@@ -31,10 +31,11 @@ body {
 main {
   background-color: rgba(184, 170, 152, 0.847);
   margin: 200px;
+  padding: 10% 1% 5%;
   text-align: center;
 }
 
-.tx-fn-aceu {
+.texte_de_font_index {
   color: black;
   text-align: center;
   margin: 200px;
@@ -65,7 +66,7 @@ nav ul li a {
   text-decoration-line: none;
 }
 
-.poli-starwars-1 {
+.police_index_starwars {
   font-family: 'star-wars';
   text-align: center;
   font-size: 50px;
@@ -73,4 +74,9 @@ nav ul li a {
 
 #logo {
   height: 1em;
+}
+
+.texte_de_font_evenements {
+  text-align: center;
+  margin: 200px;
 }
