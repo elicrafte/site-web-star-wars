@@ -1,3 +1,4 @@
+/* tous ce qui est forme de l'ecriture*/
 @font-face {
   font-family: 'star-wars';
   src: url(./police/star-wars/STARWARS2/STARWARS.woff2) format('woff2'),
@@ -8,12 +9,42 @@
   font-display: swap;
 }
 
-.img-index {
-  display: flex;
-  justify-content: center;
+.texte_de_font_index {
+  color: black;
+  text-align: center;
+  margin: 200px;
 }
 
-body {
+.police_index_starwars {
+  font-family: 'star-wars';
+  text-align: center;
+  font-size: 50px;
+}
+
+.texte_de_font_evenements {
+  text-align: center;
+  margin: 200px;
+  color: black;
+}
+
+
+
+/* tous ce qui est image */
+.img-index-mandalorien {
+  display: flex;
+  justify-content: center;
+  top: 3000em;
+}
+
+#logo {
+  height: 1em;
+  margin-right: 1em;
+}
+
+
+
+/* tous ce qui body des 3 page */
+.body-index {
   background-image: url(./img/atat_degarder.jpg);
   z-index: -1;
   background-size: cover;
@@ -22,25 +53,53 @@ body {
   background-attachment: fixed;
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+.body-evenement {
+  background-image: url(./img/atat_degarder.jpg);
+  z-index: -1;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+.body-perso {
+  z-index: -1;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*touts ce qui est main des 3 page*/
+.main-index {
   background-color: rgba(184, 170, 152, 0.847);
   margin: 200px;
   padding: 20% 1% 5%;
   text-align: center;
 }
 
-.texte_de_font_index {
-  color: black;
-  text-align: center;
+.main-evenement {
+  background-color: rgba(184, 170, 152, 0.847);
   margin: 200px;
+  padding: 20% 1% 5%;
+  text-align: center;
 }
 
+
+
+/*touts ce qui est pour la barre de navigation 
+inssi que les animantion de la barre de navigaion*/
 nav {
   position: sticky;
   top: 0;
@@ -64,24 +123,6 @@ nav ul {
 nav ul li {
   list-style: none;
 }
-
-.police_index_starwars {
-  font-family: 'star-wars';
-  text-align: center;
-  font-size: 50px;
-}
-
-#logo {
-  height: 1em;
-  margin-right: 1em;
-}
-
-.texte_de_font_evenements {
-  text-align: center;
-  margin: 200px;
-  color: black;
-}
-
 
 /* tout ce qui a apres la note et lanimation boutont de navigation*/
 *,
@@ -110,13 +151,13 @@ nav ul li {
   border-radius: 3px;
   cursor: pointer;
   transition:
-    transform 0.15s ease-out,
-    color 0.15s ease-out,
-    background-color 0.15s ease-out;
+    transform 0.70s ease-out,
+    color 0.70s ease-out,
+    background-color 0.70s ease-out;
 }
 
 .animated-link:hover span {
-  transition-delay: 0.15s;
+  transition-delay: 0.05s;
   transform: translate(3px, -3px);
   color: black;
   background: #62aeb3;
