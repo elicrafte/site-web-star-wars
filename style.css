@@ -1,4 +1,3 @@
-/* tous ce qui est forme de l'ecriture*/
 @font-face {
   font-family: 'star-wars';
   src: url(./police/star-wars/STARWARS2/STARWARS.woff2) format('woff2'),
@@ -9,43 +8,50 @@
   font-display: swap;
 }
 
-.texte_de_font_index {
-  color: black;
-  text-align: center;
-  margin: 200px;
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.police_index_starwars {
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Tout ce qui est pour la forme de l'écriture */
+.title {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.police_starwars {
   font-family: 'star-wars';
   text-align: center;
   font-size: 50px;
 }
 
-.texte_de_font_evenements {
-  text-align: center;
-  margin: 200px;
-  color: black;
+.body-index .p1 .police_starwars {
+  font-size: 15px;
+  color: yellow;
 }
 
-
-
-/* tous ce qui est image */
+/* Tout ce qui est pour les images */
 .img-index-mandalorien {
   display: flex;
   justify-content: center;
-  top: 3000em;
+  align-items: center;
+  margin-bottom: 2em;
 }
 
 #logo {
-  height: 1em;
   margin-right: 1em;
 }
 
-
-
-/* tous ce qui body des 3 page */
-.body-index {
-  background-image: url(./img/atat_degarder.jpg);
+/* Tout ce qui est "body" des 3 pages */
+body {
   z-index: -1;
   background-size: cover;
   max-width: 100%;
@@ -56,50 +62,23 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.body-evenement {
-  background-image: url(./img/atat_degarder.jpg);
-  z-index: -1;
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-  background-attachment: fixed;
-  padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+/* Tout ce qui est "main" des 3 pages */
+main {
+  text-align: center;
+  margin-bottom: 2.5em;
 }
 
-.body-perso {
-  z-index: -1;
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-  background-attachment: fixed;
-  padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* Tout ce qui est "section" des 3 pages */
+section {
+  background: linear-gradient(rgb(0, 0, 0), 50%, rgb(255, 255, 255));
+  /*padding-bottom: 100%;*/
 
-
-
-/*touts ce qui est main des 3 page*/
-.main-index {
-  background-color: rgba(184, 170, 152, 0.847);
-  margin: 200px;
-  padding: 20% 1% 5%;
+  color: red;
   text-align: center;
 }
 
-.main-evenement {
-  background-color: rgba(184, 170, 152, 0.847);
-  margin: 200px;
-  padding: 20% 1% 5%;
-  text-align: center;
-}
-
-
-
-/*touts ce qui est pour la barre de navigation 
-inssi que les animantion de la barre de navigaion*/
+/* Tout ce qui est pour la barre de navigation 
+Ainsi que les animations de la barre de navigation */
 nav {
   position: sticky;
   top: 0;
@@ -109,7 +88,6 @@ nav {
   border-color: black;
   border: 4px solid;
   padding-bottom: 1em;
-  font-size: 25px;
 }
 
 nav ul {
@@ -124,15 +102,8 @@ nav ul li {
   list-style: none;
 }
 
-/* tout ce qui a apres la note et lanimation boutont de navigation*/
-*,
-::before,
-::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Tout ce qui est pour l'animation
+ des boutons de navigation */
 .animated-link {
   display: inline-block;
   background: black;
