@@ -48,6 +48,43 @@ body {
   text-decoration: none;
 }
 
+.body-perso .prélogie h1 {
+  font-size: 35px;
+}
+
+.body-perso table {
+  border-collapse: collapse;
+  border: 2px solid rgb(100, 114, 111);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: red;
+  margin: auto;
+  list-style: inside;
+}
+
+tr:nth-child(even) td {
+  background-color: none;
+  
+}
+
+tr:nth-child(odd) td {
+  background-color: none;
+  
+}
+
+td,
+th {
+  /*border:  1px solid rgb(100, 114, 111);*/
+  padding: 5px 10px;
+  border-bottom: 2px solid rgb(100, 114, 111);
+  
+}
+
+td {
+  text-align: center;
+  
+}
+
 /* Tout ce qui est pour les images */
 .img-index-mandalorien {
   display: flex;
