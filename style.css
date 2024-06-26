@@ -38,13 +38,9 @@ body {
   color: yellow;
 }
 
-.body-perso a {
-  color: rgb(0, 254, 204);
-  text-align: center;
-}
-
-.body-perso h1 {
+body .Title {
   font-size: 35px;
+  color: rgb(3, 171, 134);
 }
 
 body table {
@@ -95,7 +91,8 @@ hr {
   border-top: 4px double deeppink;
   color: deeppink;
 }
-/*touts ce qui et "tooter" des 3 page*/
+
+/*touts ce qui et "footer" des 3 page*/
 /*footer {
   bottom: 0;
   left: 0;
@@ -116,6 +113,12 @@ section {
   background: linear-gradient(rgb(0, 0, 0), 60%, rgb(151, 141, 141));
   color: rgb(244, 88, 21);
   text-align: center;
+}
+
+/*touts ce qui est barre de recherche des page perso*/
+body .recherche a{
+  color: rgb(237, 38, 255);
+  line-height: 1em;
 }
 
 /* Tout ce qui est pour la barre de navigation 
