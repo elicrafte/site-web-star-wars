@@ -111,7 +111,7 @@ main {
 
 /* Tout ce qui est "section" des 3 pages */
 section {
-  background: linear-gradient(rgb(0, 0, 0), 60%, rgb(151, 141, 141));
+  background: rgb(53, 49, 49);
   color: rgb(244, 88, 21);
   text-align: center;
 }
