@@ -58,6 +58,7 @@ body table {
 .title_color {
   color: rgb(0, 252, 46);
   text-align: center;
+  padding-bottom: 2em;
 }
 
 td,
@@ -93,9 +94,6 @@ body:not(.body-index ,.body-evenement) p {
   justify-content: center;
   align-items: center;
   margin-bottom: 2em;
-  width: 100%;
-  height: auto;
-  
 }
 
 #logo {
