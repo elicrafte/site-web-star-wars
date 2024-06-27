@@ -50,11 +50,12 @@ body table {
   font-size: 0.8rem;
   color: rgb(0, 252, 46);
   /*margin: auto;*/
-  align-items: right;
+  align-items: center;
 }
 
 .title_color {
   color: rgb(0, 252, 46);
+  text-align: center;
 }
 
 td,
@@ -62,6 +63,17 @@ th {
   padding: 5px 10px;
   border-bottom: 2px solid rgb(3, 171, 134);
   text-align: center;
+}
+
+body:not(.body-index ,.body-evenement) p {
+  text-align: center;
+  font-size: large;
+  word-spacing: 2px;
+  width: 20em;
+  height: auto;
+  border: 2px solid rgb(148, 148, 2);
+  border-radius: 5px;
+  color: antiquewhite;
 }
 
 /* Tout ce qui est pour les images */
@@ -78,13 +90,6 @@ th {
 
 /* Tout ce qui est "body" des 3 pages */
 body {
-  z-index: -1;
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-  background-attachment: fixed;
-  padding: 0;
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -105,7 +110,6 @@ hr {
 
 /* Tout ce qui est "main" des 3 pages */
 main {
-  text-align: center;
   margin-bottom: 2.5em;
 }
 
@@ -114,6 +118,8 @@ section {
   background: rgb(53, 49, 49);
   color: rgb(244, 88, 21);
   text-align: center;
+  word-spacing: 2px;
+  line-height: 1.5em;
 }
 
 /*touts ce qui est barre de recherche des page perso*/
