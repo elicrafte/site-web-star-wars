@@ -47,10 +47,12 @@ body table {
   border-collapse: collapse;
   border: 2px solid rgb(3, 171, 134);
   letter-spacing: 1px;
-  font-size: 0.8rem;
+  font-size: 15px;
   color: rgb(0, 252, 46);
   /*margin: auto;*/
   align-items: center;
+  z-index: 1;
+  margin-left: 1em;
 }
 
 .title_color {
@@ -67,13 +69,22 @@ th {
 
 body:not(.body-index ,.body-evenement) p {
   text-align: center;
+  position: absolute;
   font-size: large;
   word-spacing: 2px;
-  width: 20em;
+  max-width: 35em;
+  min-width: 20em;
+  width: auto;
   height: auto;
   border: 2px solid rgb(148, 148, 2);
   border-radius: 5px;
   color: antiquewhite;
+  margin-left: 34em;
+  /*margin-top: 3em;*/
+  z-index: 1;
+}
+.div-perso {
+  margin-bottom: 6em;
 }
 
 /* Tout ce qui est pour les images */
@@ -82,6 +93,9 @@ body:not(.body-index ,.body-evenement) p {
   justify-content: center;
   align-items: center;
   margin-bottom: 2em;
+  width: 100%;
+  height: auto;
+  
 }
 
 #logo {
@@ -109,9 +123,7 @@ hr {
 }*/
 
 /* Tout ce qui est "main" des 3 pages */
-main {
-  margin-bottom: 2.5em;
-}
+
 
 /* Tout ce qui est "section" des 3 pages */
 section {
@@ -139,6 +151,7 @@ nav {
   border-color: black;
   border: 4px solid;
   padding-bottom: 1em;
+  z-index: 2;
 }
 
 nav ul {
